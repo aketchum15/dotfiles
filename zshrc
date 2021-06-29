@@ -9,7 +9,7 @@ export ZSH="/home/adam/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="random"
-#good:mikeh, maran, tjkirch_mod, fino
+#good:mikeh, maran, tjkirch_mod, fino, gozilla
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
