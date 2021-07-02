@@ -54,23 +54,6 @@ nnoremap <silent> <space><space> :noh<enter>
 "allow for , usage with leader as ,
 noremap , <leader>,
 
-"remap yank, delete, and paste to use the system clipboard"
-nnoremap y "+y
-vnoremap y "+y
-nnoremap Y "+Y
-vnoremap Y "+Y
-
-nnoremap d "+d
-vnoremap d "+d
-nnoremap D "+D
-vnoremap D "+D
-
-nnoremap p "+p
-vnoremap p "+p
-nnoremap P "+P
-vnoremap P "+P
-
-
 "use Control + {h j k l} to navigate splits
 nnoremap <C-h> <C-w><h>
 nnoremap <C-j> <C-w><j>
