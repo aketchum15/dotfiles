@@ -50,6 +50,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'hrsh7th/nvim-compe'
+Plug 'mfussenegger/nvim-jdtls'
 
 call plug#end()
 
