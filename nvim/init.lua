@@ -39,6 +39,8 @@ vim.g.tokyonight_enable_italic = 1
 vim.g.tokyonight_transparent_background = 1
 vim.g.lightline = {colorscheme = 'tokyonight'}
 
+vim.g.livepreview_previewer = 'zathura'
+
 vim.cmd([[
 call plug#begin(stdpath('data') . '/plugged')
 
@@ -51,6 +53,9 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'kabouzeid/nvim-lspinstall'
 Plug 'hrsh7th/nvim-compe'
 Plug 'mfussenegger/nvim-jdtls'
+Plug 'xuhdev/vim-latex-live-preview'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'lervag/vimtex'
 
 call plug#end()
 
