@@ -2,6 +2,7 @@ require'lspinstall'.setup()
 
 require'lspconfig'['typescript'].setup{}
 
+require'lspconfig'.graphql.setup{}
 
 require'lspconfig'.jdtls.setup{
    cmd = { 'jdtls' },

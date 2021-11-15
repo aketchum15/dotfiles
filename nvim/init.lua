@@ -4,6 +4,8 @@ vim.b.mapleader = ','
 vim.wo.number = true
 vim.wo.relativenumber = true
 
+vim.wo.wrap = false
+
 vim.o.cmdheight = 2
 
 vim.wo.signcolumn = 'number'
@@ -56,6 +58,7 @@ Plug 'mfussenegger/nvim-jdtls'
 Plug 'xuhdev/vim-latex-live-preview'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'lervag/vimtex'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 call plug#end()
 

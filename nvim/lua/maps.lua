@@ -8,6 +8,8 @@ end
 
 map('n', '<space><space>', ':noh<CR>', {silent = true})
 
+vim.api.nvim_set_keymap('n', 'Y', 'y$', {})
+
 map('n', '<C-h>', '<C-w>h')
 map('n', '<C-j>', '<C-w>j')
 map('n', '<C-k>', '<C-w>k')
